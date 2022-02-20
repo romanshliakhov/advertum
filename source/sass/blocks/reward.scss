@@ -1,0 +1,47 @@
+.reward {
+  background: linear-gradient(360deg, rgba(10,10,84,1) 0%, rgba(0,44,116,1) 100%);
+  padding: 130px 0 143px;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    max-width: 510px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 72px;
+  }
+
+  &__list {
+    width: 100%;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 212px;
+    min-height: 365px;
+  }
+
+  &__item-image {
+    display: flex;
+    align-items: center;
+    min-height: 221px;
+  }
+
+  &__item-title {
+    color: #6AD6EF;
+    text-align: center;
+  }
+
+  &__item-text {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+}

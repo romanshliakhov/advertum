@@ -1,0 +1,45 @@
+.bonuses {
+  padding: 100px 10px;
+
+  &__inner {
+    margin: 0 auto;
+    max-width: 1266px;
+    width: 100%;
+    min-height: 680px;
+    background-color: #CCF4FF;
+    border-radius: 10px;
+    padding: 20px 0 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    max-width: 460px;
+    padding-left: 75px;
+  }
+
+  &__emo-image {
+    margin-top: 100px;
+    width: 50px;
+    height: 52px;
+  }
+
+  &__title {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  &__text {
+
+    span {
+      display: block;
+      font-weight: 700;
+    }
+  }
+
+  &__image {
+    max-width: 672px;
+    width: 100%;
+    max-height: 580px;
+  }
+}
