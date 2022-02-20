@@ -1,0 +1,44 @@
+.missions {
+  padding: 90px 0;
+
+  &__container {
+    max-width: 1238px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__head {
+    position: relative;
+    height: 380px;
+    max-width: 575px;
+    display: flex;
+    align-items: center;
+
+    img {
+      object-fit: cover;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 320px;
+    }
+  }
+
+  &__title {
+    position: relative;
+    text-align: center;
+    z-index: 5;
+  }
+
+  &__list {
+    height: 315px;
+  }
+
+
+  &__btn {
+    margin-top: 70px;
+  }
+}
