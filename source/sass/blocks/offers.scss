@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 95px;
+  padding: 95px 10px;
 
   &__inner {
     display: flex;
@@ -44,7 +44,6 @@
 
   &__item-image {
     height: 148px;
-    background-color: red;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }

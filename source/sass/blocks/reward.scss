@@ -31,7 +31,29 @@
   &__item-image {
     display: flex;
     align-items: center;
-    min-height: 221px;
+    justify-content: center;
+    min-height: 160px;
+  }
+
+  &__item-img1 {
+    height: 90px;
+    width: 123px;
+  }
+
+  &__item-img2 {
+    margin-top: 25px;
+    height: 92px;
+    width: 126px;
+  }
+
+  &__item-img3 {
+    height: 120px;
+    width: 102px;
+  }
+
+  &__item-img4 {
+    height: 120px;
+    width: 164px;
   }
 
   &__item-title {
