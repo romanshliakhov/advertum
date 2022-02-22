@@ -1,0 +1,26 @@
+.wait {
+  padding: 80px 10px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__image {
+    max-width: 590px;
+    max-height: 570px;
+  }
+
+  &__details-image {
+    width: 60px;
+    height: 70px;
+  }
+
+  &__title {
+    margin-top: 20px;
+  }
+
+  &__text {
+    margin-top: 45px;
+    max-width: 260px;
+  }
+}

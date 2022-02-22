@@ -1,0 +1,56 @@
+.reg {
+  padding: 30px 10px;
+
+  &__inner {
+    margin: 0 auto;
+    max-width: 1266px;
+    width: 100%;
+    min-height: 680px;
+    background-color: #ccf4ff;
+    background-image: url('../img/reg1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 0 100px;
+    border-radius: 10px;
+  }
+
+  &__title {
+    margin-bottom: 55px;
+  }
+
+  &__list {
+    max-width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex-basis: 35%;
+    text-align: left;
+    margin-bottom: 40px;
+    position: relative;
+
+    &::before {
+      content: '';
+      background-image: url('../img/star.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      top: 5px;
+      left: -25px;
+    }
+  }
+
+  &__btn {
+    margin-top: 75px;
+  }
+}
