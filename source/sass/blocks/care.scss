@@ -1,3 +1,48 @@
-// .footer {
+.care {
+  padding: 40px 10px;
 
-// }
+  &__inner {
+    margin: 0 auto;
+    max-width: 1265px;
+    width: 100%;
+    background-image: url('../img/care.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 85px 0 90px;
+
+  }
+
+  &__title {
+    color: #fff;
+    margin-bottom: 45px;
+  }
+
+  &__info {
+    max-width: 645px;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgba(112, 112, 112, 0.4);
+    border-radius: 10px;
+  }
+
+  &__info-image {
+    width: 60px;
+    height: 40px;
+  }
+
+  &__info-text {
+    margin-top: 20px;
+    line-height: 36px;
+    color: #fff;
+  }
+}
