@@ -3,8 +3,8 @@ let banner = new Swiper('.missions__slider', {
   slidesPerView: 5,
   loop: true,
   navigation: {
-    prevEl: '.swiper-button-prev',
-    nextEl: '.swiper-button-next',
+    prevEl: '.missions__slider-btn--prev',
+    nextEl: '.missions__slider-btn--next',
   },
   scrollbar: {
     el: '.swiper-scrollbar',
