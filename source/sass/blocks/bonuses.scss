@@ -9,8 +9,14 @@
     background-color: #CCF4FF;
     border-radius: 10px;
     padding: 20px 0 80px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+      grid-gap: 20px;
+      grid-template-columns: 100%;
+    }
   }
 
   &__info {
@@ -38,8 +44,34 @@
   }
 
   &__image {
-    max-width: 672px;
+    width: clamp(320px, 48vw, 672px);
+    position: relative;
+
+    img {
+      position: absolute;
+    }
+  }
+
+  &__hand {
+    position: relative;
+
+    z-index: 1;
+
+  }
+
+  &__numbers {
+    top: Min(20vw, 273px);
+    left: 31%;
+    width: Min(15vw, 228px);
+    z-index: 7;
+  }
+
+  &__cubes {
+    z-index: 10;
     width: 100%;
-    max-height: 580px;
+    height: auto;
+    max-width: 58%;
+    left: 6%;
+    top: Min(13vw,30%);
   }
 }
