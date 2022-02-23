@@ -105,6 +105,7 @@ input[type="search"]::-webkit-search-results-decoration {
   max-width: 1165px;
   padding: 0 15px;
   margin: 0 auto;
+  position: relative;
 }
 
 .title {
@@ -130,6 +131,11 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 8px;
   color: #fff;
   background: linear-gradient(360deg, rgba(237,28,36,1) 0%, rgba(254,134,3,1) 100%);
+  transition: all 1s linear;
+
+  &:hover {
+    background: linear-gradient(360deg, rgba(254,134,3,1) 0%, rgba(237,28,36,1) 100%);
+  }
 }
 
 
