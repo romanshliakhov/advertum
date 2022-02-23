@@ -1,0 +1,69 @@
+.questions {
+  padding: 90px 10px;
+  background: linear-gradient(360deg, rgba(255,142,1,1) 0%, rgba(237,28,36,1) 100%);
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url('../img/info.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95%;
+    top: 25px;
+    left: 0;
+  }
+
+  &__inner {
+    padding: 110px 0 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+  }
+
+  &__descr {
+    color: #fff;
+  }
+
+  &__btn {
+    margin-top: 65px;
+    max-width: 426px;
+    width: 100%;
+    background: linear-gradient(360deg, rgba(0,72,147,1) 0%, rgba(53,140,216,1) 100%);
+  }
+
+  &__list {
+    margin-top: 40px;
+    max-width: 1195px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list-item {
+    max-width: 355px;
+    background-color: #fff;
+    border: 1px solid #707070;
+    border-radius: 5px;
+  }
+
+  &__image {
+    border-radius: 5px;
+
+    img {
+      display: block;
+      border-radius: 5px;
+    }
+  }
+}
